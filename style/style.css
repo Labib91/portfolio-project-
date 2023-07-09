@@ -1,0 +1,242 @@
+/* common style here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.btn {
+  background-color: #fd6e0a;
+  color: #fff;
+}
+.about {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 30px;
+}
+.para {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+/* header style start here */
+
+.header {
+  background: #fff8f3;
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+  background-position-y: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.logo span {
+  color: #fd6e0a;
+}
+.list-item {
+  margin-top: 15px;
+}
+nav li {
+  list-style: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+ul li {
+  display: inline;
+  margin-left: 50px;
+}
+.list-item button {
+  height: 50px;
+  width: 140px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* banner style start here */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 20px;
+  background-position-y: 158px;
+}
+.banner-content {
+  margin-top: 10%;
+  margin-left: 200px;
+}
+.banner-welcome {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-head {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-des {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner button {
+  height: 50px;
+  width: 140px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* about section style here */
+
+.about {
+  padding: 90px;
+}
+.about-section {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 230px 130px 230px;
+  width: 1140px;
+  height: 550px;
+}
+.about-info h4 {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 30px;
+}
+.about-info h2 {
+  color: #615757;
+}
+/* card style here */
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card-1 {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 267px;
+  height: 377px;
+  padding: 33px;
+}
+.card-1 h4 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.card-1 p {
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 30px;
+}
+/* resume style here */
+.resume {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 180px;
+  margin-top: -150px;
+}
+.resume-right h1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.resume-right h2 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.resume-right h3 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.resume-right p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.resume-left h1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+
+.resume-left h2 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.resume-left h3 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.resume-left p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* button {
+    width: 250px;
+    height: 64px;
+    border-radius: 5px;
+    background: #fd6e0a;
+    margin: 0 700px;
+} */

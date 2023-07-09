@@ -120,7 +120,7 @@ ul li {
 .about-section {
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 230px 130px 230px;
+  margin: 80px 5px 0px 110px;
   width: 1140px;
   height: 550px;
 }
@@ -233,10 +233,68 @@ ul li {
   font-weight: 400;
   line-height: 28px;
 }
-/* button {
-    width: 250px;
-    height: 64px;
-    border-radius: 5px;
-    background: #fd6e0a;
-    margin: 0 700px;
-} */
+.download-btn {
+  width: 250px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  margin: 0 500px;
+}
+/* contact us style here */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: #fff8f3;
+  padding: 53px;
+}
+.lets-Connect {
+  width: 50%;
+}
+
+.lets-Connect h1 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.lets-Connect p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.s-icon {
+  margin-top: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: none;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: #fd6e0a;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

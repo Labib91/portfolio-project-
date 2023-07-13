@@ -4,14 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+
 .btn {
   background-color: #fd6e0a;
   color: #fff;
 }
+
 .about {
   color: #181818;
   text-align: center;
@@ -19,6 +22,7 @@ body {
   font-weight: 700;
   padding: 30px;
 }
+
 .para {
   color: #757575;
   text-align: center;
@@ -43,27 +47,33 @@ nav {
   justify-content: space-around;
   padding: 20px 0px;
 }
+
 .logo {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
 }
+
 .logo span {
   color: #fd6e0a;
 }
+
 .list-item {
   margin-top: 15px;
 }
+
 nav li {
   list-style: none;
   color: #474747;
   font-size: 20px;
   font-weight: 400;
 }
+
 ul li {
   display: inline;
   margin-left: 50px;
 }
+
 .list-item button {
   height: 50px;
   width: 140px;
@@ -82,26 +92,31 @@ ul li {
   margin-top: 20px;
   background-position-y: 158px;
 }
+
 .banner-content {
   margin-top: 10%;
   margin-left: 200px;
 }
+
 .banner-welcome {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
 }
+
 .banner-head {
   color: #181818;
   font-size: 85px;
   font-weight: 700;
 }
+
 .banner-des {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
+
 .banner button {
   height: 50px;
   width: 140px;
@@ -117,6 +132,7 @@ ul li {
 .about {
   padding: 90px;
 }
+
 .about-section {
   border-radius: 10px;
   background: #fff8f3;
@@ -124,6 +140,7 @@ ul li {
   width: 1140px;
   height: 550px;
 }
+
 .about-info h4 {
   color: #757575;
   text-align: center;
@@ -132,21 +149,25 @@ ul li {
   line-height: 30px;
   margin-top: 30px;
 }
+
 .about-info {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   margin-left: 30px;
 }
+
 .about-info h2 {
   color: #615757;
 }
+
 /* card style here */
 
 .card {
   display: flex;
   justify-content: center;
 }
+
 .card-1 {
   border-radius: 5px;
   background: #fff;
@@ -155,6 +176,7 @@ ul li {
   height: 377px;
   padding: 33px;
 }
+
 .card-1 h4 {
   color: #181818;
   font-size: 20px;
@@ -171,6 +193,7 @@ ul li {
   line-height: 28px;
   margin-top: 30px;
 }
+
 /* resume style here */
 .resume {
   display: flex;
@@ -178,6 +201,7 @@ ul li {
   padding: 180px;
   margin-top: -150px;
 }
+
 .resume-right h1 {
   color: #474747;
   font-size: 30px;
@@ -205,6 +229,7 @@ ul li {
   font-weight: 400;
   line-height: 28px;
 }
+
 .resume-left h1 {
   color: #474747;
   font-size: 30px;
@@ -233,6 +258,7 @@ ul li {
   font-weight: 400;
   line-height: 28px;
 }
+
 .download-btn {
   width: 250px;
   height: 64px;
@@ -240,6 +266,7 @@ ul li {
   background: #fd6e0a;
   margin: 0 500px;
 }
+
 /* contact us style here */
 
 .contact {
@@ -249,6 +276,7 @@ ul li {
   background-color: #fff8f3;
   padding: 53px;
 }
+
 .lets-Connect {
   width: 50%;
 }
@@ -266,6 +294,7 @@ ul li {
   line-height: 28px;
   margin-top: 20px;
 }
+
 .s-icon {
   margin-top: 30px;
 }
@@ -280,6 +309,7 @@ textarea {
   margin-bottom: 16px;
   border: none;
 }
+
 input[type="email"] {
   width: 100%;
   padding: 12px;
@@ -297,4 +327,115 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/* for mobile */
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+
+  .logo h1 {
+    font-size: 40px;
+    margin-left: -212px;
+  }
+  .banner-welcome {
+    font-size: 30px;
+  }
+  .banner-head {
+    font-size: 40px;
+  }
+  .para {
+    text-align: start;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .title {
+    text-align: start;
+    font-size: 32px;
+    padding: 20px;
+  }
+
+  .list-item {
+    display: none;
+  }
+  .list-item ul li {
+    font-size: 15px;
+  }
+
+  .download-btn {
+    margin: 10px;
+    width: 200px;
+    margin-left: 40px;
+  }
+
+  .banner,
+  .card,
+  .resume,
+  .about,
+  .about-info {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .banner button,
+  .banner-des {
+    display: none;
+  }
+  .banner {
+    background-image: none;
+    padding: 0px;
+    margin: -46px 0px 0px 0px;
+  }
+
+  .banner-content {
+    margin-top: 10%;
+    margin-left: 21px;
+  }
+
+  .banner-img img {
+    height: 200px;
+    width: 200px;
+    margin-left: 56%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-top: -140px;
+  }
+
+  .card {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .resume {
+    flex-direction: column-reverse;
+    padding: 40px;
+  }
+
+  .resume-right h1 {
+    margin-top: 90px;
+  }
+
+  .about {
+    padding: 0px;
+    font-size: 32px;
+  }
+
+  .about-info h4 {
+    text-align: justify;
+  }
+
+  .about-info {
+    text-align: justify;
+  }
+
+  .about-section {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
 }
